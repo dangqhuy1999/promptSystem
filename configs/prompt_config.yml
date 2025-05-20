@@ -1,0 +1,13 @@
+project1:
+  summarization:
+    - intro_block.yml
+    - summary_block.yml
+  classification:
+    - classification_intro.yml
+    - classification_rules.yml
+
+project2:
+  chatbot:
+    - chatbot_greeting.yml
+    - chatbot_qa.yml
+
