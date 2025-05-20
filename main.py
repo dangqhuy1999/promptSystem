@@ -1,6 +1,6 @@
 # main.py
 from fastapi import FastAPI, HTTPException
-from routes.prompt import router as prompt_router
+from routers.prompt import router as prompt_router
 
 app = FastAPI(title="Prompt API Server")
 
@@ -8,7 +8,7 @@ app.include_router(prompt_router, prefix="/get_prompt")
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=8789, reload=True)
 # Folder structure:
 # ├── main.py
 # ├── routes/

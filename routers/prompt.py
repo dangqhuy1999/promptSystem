@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from utils.loader import compose_prompt
+from  composer import compose_prompt
 
 router = APIRouter()
 
@@ -14,4 +14,5 @@ def get_composed_prompt(project: str, use_case: str):
         }
     except (FileNotFoundError, ValueError) as e:
         raise HTTPException(status_code=404, detail=str(e))
-
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))

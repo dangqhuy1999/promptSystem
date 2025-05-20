@@ -1,18 +1,21 @@
-from typing import List, Dict, Any
+import yaml
+from utils.loader import load_yaml_block 
+import os
 
-def compose_prompt(blocks: List[Dict[str, Any]], context: Dict[str, Any] = None) -> str:
-    prompt_parts = []
-    # Ví dụ: mỗi block có "content" hoặc "template"
-    for block in blocks:
-        content = block.get("content", "")
-        # Nếu block có template và context, render template
-        if "{context" in content and context:
-            content = content.format(context=context)
-        prompt_parts.append(content)
-    
-    # Nếu có thêm context chung thì thêm ở cuối prompt
-    if context:
-        prompt_parts.append(f"\nContext:\n{context}")
-    
-    return "\n\n".join(prompt_parts)
+def compose_prompt(project: str, use_case: str, config_path="configs/prompt_config.yml") -> str:
+    with open(config_path, "r") as f:
+        config = yaml.safe_load(f)
+
+    if project not in config or use_case not in config[project]:
+        raise ValueError("Invalid project or use_case")
+
+    blocks = config[project][use_case]
+    full_prompt = []
+
+    for block_file in blocks:
+        block_path = os.path.join("prompt_blocks", project, use_case, block_file)
+        content = load_yaml_block(block_path)
+        full_prompt.append(content.strip())
+
+    return "\n\n".join(full_prompt)
 

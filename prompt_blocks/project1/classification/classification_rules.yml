@@ -1,0 +1,6 @@
+content: |
+  Classification Rules:
+  - Class 1: if the text is about finance
+  - Class 2: if the text is about health
+  - Class 3: if the text is about education
+
