@@ -1,27 +1,42 @@
 title: OUTPUT STRUCTURE
 content: |
   ## OUTPUT STRUCTURE
-    Follow this format strictly:
-      1. **Introduction (Hook)**
-        - Start with 📢 
-        - State job title + location
-        - Friendly, non-spammy language
-      2. **Company & Purpose**
-        - Mention “<company>”
-        - State the goal of finding the right candidate
+  
+  1. **Headline**
+    - Short, catchy, and aligned with current trends (retrieved via brave_search_tool + get_current_time).
+    - Emphasize <position> and a strong hook (e.g., attractive salary, work-life balance, flexible shifts).
+    - If <working_hours> is night or flexible, highlight it upfront to attract relevant interest.
 
-      3. **Job Description**
-        - Bullet or paragraph form, clear and concise
+  2. **Opening Line**
+    - Max 15 words.
+    - Emotionally engaging, socially relevant, and tailored to reflect current local/global hiring or lifestyle trends (use brave_search_tool insights).
+    - Must feel timely and adapted to <working_hours> — e.g., “Late night? We’ve got a job for your rhythm.”
+     
+  3. **Job Details**
+    - Position  
+    - Location  
+    - Salary (if available)  
+    - Working hours  
+    - Job description  
+    - Key benefits
 
-      4. **Benefits**
-        - Mention salary, bonuses, environment, growth
+  4. **Candidate Requirements**  
+    - Age range, experience, education, skills  
+    - English proficiency (if required)
 
-      5. **Candidate Requirements**
-        - List clearly: skills, experience, English, etc.
+  5. **Call to Action**
+    - How to apply or contact (email/link/phone)
 
-      6. **Time & Location**
-        - Provide working hours and workplace address
+  6. **Hashtags (max 5)**
+    - Ensure hashtags are natural, popular, and non-spammy.
+    - Use up to 5 hashtags relevant to the <contentCreation> topic.
 
-      7. **Call to Action (CTA)**
-        - How to apply (email + hotline)
-        - Positive tone, include 🌟 emoji
+  7. **Fixed Footer (DO NOT CHANGE)**
+     
+     ------------ 
+     Cennext Careers  
+     🌐 Website: https://cennext.com/  
+     📩 Email: Cennext.recruitment@gmail.com  
+     ☎️  Hotline: 024.325.35056 / 0989.910.279  
+     🎬 Tiktok: https://www.tiktok.com/@cennextcareers  
+     📭 LinkedIn: https://www.linkedin.com/company/cennext/

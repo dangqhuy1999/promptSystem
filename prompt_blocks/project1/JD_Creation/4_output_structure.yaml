@@ -1,0 +1,42 @@
+title: OUTPUT STRUCTURE
+content: |
+  ## OUTPUT STRUCTURE
+  
+  Please generate the Facebook post content as **plain text** suitable for Facebook:
+  - Do NOT use Markdown syntax such as [text](link).
+  - Write email addresses and links as plain text, for example: Cennext.recruitment@gmail.com
+  - Avoid using emojis in contact information to prevent Facebook spam detection.
+
+  1. **Headline** 🎯  
+     - Highlight the job title and a key attraction point.
+
+  2. **Opening Line** 
+     - A short, engaging intro to catch attention.
+
+  3. **Job Details**
+     - Position  
+     - Location  
+     - Salary (if available)  
+     - Working hours  
+     - Job description  
+     - Key benefits
+
+  4. **Candidate Requirements**  
+     - Age range, experience, education, skills  
+     - English proficiency (if required)
+
+  5. **Call to Action**
+     - How to apply or contact (email/link/phone)
+
+  6. **Hashtags (max 5)**
+     - Relevant to the content, not spammy
+
+  7. **Fixed Footer (DO NOT CHANGE)**
+     
+     ------------ 
+     Cennext Careers  
+     🌐 Website: https://cennext.com/  
+     📩 Email: Cennext.recruitment@gmail.com  
+     ☎️  Hotline: 024.325.35056 / 0989.910.279  
+     🎬 Tiktok: https://www.tiktok.com/@cennextcareers  
+     📭 LinkedIn: https://www.linkedin.com/company/cennext/

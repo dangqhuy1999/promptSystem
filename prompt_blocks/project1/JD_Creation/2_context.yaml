@@ -1,0 +1,12 @@
+title: CONTEXT
+content: |
+  ## Job Information:
+  - Position: <position>
+  - Location: <location>
+  - Working hours: <working_hours>
+
+  ## Candidate Information:
+  - Age range: <age_range>
+  - Experience required: <experience>
+  - Education level: <education>
+  - English proficiency: <english>

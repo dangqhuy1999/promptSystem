@@ -1,0 +1,11 @@
+title: POST-VALIDATION
+content: |
+  ## POST-VALIDATION
+  After writing the post, check if:
+    - No banned keywords
+    - No external links (except the footer)
+    - Emojis are minimal and relevant
+    - No ALL CAPS words
+    - No repeated phone numbers
+    - No spam hashtags
+  If any issue is found, fix it before returning the output.

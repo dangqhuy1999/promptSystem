@@ -1,0 +1,44 @@
+title: EXAMPLE WORKFLOW FOR CONTENT GENERATION
+content: |
+  ## 🔁 Example Workflow for JD Facebook Content Creation
+
+  This workflow guides the AI agent through a full JD content generation cycle, using the allowed tools strategically.
+
+  ### 🔹 Step 1: Load Input Variables
+  - Required fields: <position>, <working_hours>, <location>, <benefits>, <requirements>, etc.
+  - Optional: <salary>, <employer>, <urgent>
+
+  ### 🔹 Step 2: Generate Headline & Opening Line
+  - 🔸 Use `get_current_time` to assess timing (weekend, morning, night shift...).
+  - 🔸 Use `BraveSearchtool` with query:
+    > "Trending job title or phrases for <position> and <working_hours> in Vietnam or global Facebook posts"
+
+  - 🔸 Combine time + trend to create short, catchy Headline and Opening Line.
+  - 📌 Example:
+    > Headline: "Tối nay đi làm, mai có lương! Tuyển GẤP <position> ca đêm 🌙"
+
+  ### 🔹 Step 3: Build Body Content
+  - Use `<job_description>`, `<benefits>`, `<requirements>` to fill:
+    - Job Details
+    - Candidate Requirements
+
+  - Optional: If unclear structure, use `Example_fb_content` to mimic real Facebook format.
+
+  ### 🔹 Step 4: Final Section
+  - Add Call to Action with basic info (email/phone/link).
+  - Use `Policy_output_content` tool to **sanitize content**:
+    - ❌ Remove emojis in contact
+    - ❌ Remove markdown syntax
+    - ✅ Ensure post is short, readable, and human
+
+  ### 🔹 Step 5: Add Hashtags
+  - Pick 3–5 hashtags relevant to `<position>` and `<location>` based on trend via `BraveSearchtool`.
+
+  ### 🔹 Step 6: Final Reminder
+  - Attach footer info from company (do not change fixed part).
+  - Double-check total length & spam-like terms via `5_post_validation`.
+
+  ---
+
+  ✅ OUTPUT: Facebook-ready post in natural Vietnamese (or English), trendy, compliant, and conversion-focused.
+
