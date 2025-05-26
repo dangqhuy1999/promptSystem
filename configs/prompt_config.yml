@@ -7,8 +7,12 @@ project1:
     - 5_post_validation.yaml
     - 6_final_reminder.yaml 
   JD_Creation:
-    - intro_block.yml
-    - summary_block.yml
+    - 1_intro.yaml
+    - 2_context.yaml
+    - 3_tool_constrainst.yaml
+    - 4_output_structure.yaml
+    - 5_post_validation.yaml
+    - 6_final_reminder.yaml
   Content_Creation:
     - classification_intro.yml
     - classification_rules.yml

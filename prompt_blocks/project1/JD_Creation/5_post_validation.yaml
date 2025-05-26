@@ -1,11 +1,24 @@
-title: POST-VALIDATION
+title: JD-POST-VALIDATION
 content: |
-  ## POST-VALIDATION
-  After writing the post, check if:
-    - No banned keywords
-    - No external links (except the footer)
-    - Emojis are minimal and relevant
-    - No ALL CAPS words
-    - No repeated phone numbers
-    - No spam hashtags
-  If any issue is found, fix it before returning the output.
+  ## JD POST-VALIDATION-OUTPUT
+  Output format:
+    - Do NOT use code blocks like ``` or ```text```. **For example:** "Here is the final content you requested."
+
+    - 🚫 If the output contains any code block syntax or numbered section headers, it will be rejected automatically.
+  
+  After generating the Job Description (JD), validate the following before final delivery:
+  - Use formal, professional, and clear Vietnamese language.
+  - Avoid vague, overly generic, or exaggerated job responsibilities.
+  - Do not include discriminatory or sensitive language.
+  - Comply with Vietnamese labor laws and internal recruitment guidelines.
+  - Must follow the exact order of 6 sections below — no extra sections or change in order:
+    1. Company Info (this is the only section allowed to contain URLs)
+    2. Mô tả công việc
+    3. Quyền lợi
+    4. Yêu cầu
+    5. Thời gian & Địa điểm
+    6. Cách ứng tuyển (this is the only section allowed to contain email or phone contact — once only)
+  - DO NOT use  like [text](url). Always write full URLs instead.
+  - Do not use:
+    - Emojis in contact information
+    - ALL CAPS (except acronyms: KPI, OKR, etc.)

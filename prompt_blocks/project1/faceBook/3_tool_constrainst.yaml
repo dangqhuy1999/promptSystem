@@ -3,7 +3,7 @@ content: |
   ## Allowed Tools:
     - example_fb_content: review successful post samples
     - thinking_tool: reason about post structure
-    - brave_search_tool: find trending keywords and phrases
+    - Brave_Search_tool: find trending keywords and phrases
     - get_current_time: get current time for timely content
 
   ## Constraints:
@@ -13,12 +13,12 @@ content: |
   ## Workflow & Tool Usage:
     - Input job info: position, working hours, location.
     - Use `get_current_time` to identify current season/time trends.
-    - Use `brave_search_tool` to find trending keywords related to job and timing.
+    - Use `Brave_Search_tool` to find trending keywords related to job and timing.
     - Combine results to create catchy Headline and Opening Line.
     - Use `thinking_tool` to plan post structure, ensure all info rõ ràng, logic.
     - Use `example_fb_content` to review & inspire writing main content (Job details, Candidate requirements).
     - Write main content accordingly.
     - Add call-to-action.
-    - Use `brave_search_tool` to select 3-5 relevant trending hashtags.
+    - Use `Brave_Search_tool` to select 3-5 relevant trending hashtags.
     - Use `thinking_tool` again to do final check: confirm no banned words, spam, length ok, content đầy đủ và hấp dẫn.
     - Output final post as plain text, compliant with format.

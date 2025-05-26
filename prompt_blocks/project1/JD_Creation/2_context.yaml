@@ -1,12 +1,17 @@
 title: CONTEXT
 content: |
-  ## Job Information:
-  - Position: <position>
+  ## Job Details:
+  - Job Title: <jobtitle>
   - Location: <location>
   - Working hours: <working_hours>
+  - Department: <department>
+  - Division: <division>
+  - Shift Hours: <shift_hours>
 
-  ## Candidate Information:
+  ## Candidate Profile:
   - Age range: <age_range>
   - Experience required: <experience>
   - Education level: <education>
   - English proficiency: <english>
+  - Technical Skills: <technical_skills>
+  - Other Requests: <other_requests>

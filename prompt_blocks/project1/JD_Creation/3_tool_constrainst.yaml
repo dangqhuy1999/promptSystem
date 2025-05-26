@@ -1,13 +1,14 @@
 title: TOOLS & CONSTRAINTS
-content: | 
+content: |
   ## Allowed Tools:
-  - Example_fb_content: for reviewing successful job posts
-  - Policy_output_content: to ensure compliance with company branding and Facebook policy
-  - thinking: internal reasoning for structuring content
-  - BraveSearchtool: use this to look for trending expressions or job-related phrasing
-  - get_current_time: use to mention time-sensitive offers if needed
+    - Content_Examples: reference templates used in past hiring campaigns
+    - thinking_tool: reason about post structure
+    - Brave_Search_tool: find trending keywords and phrases
+    - get_current_time: get current time for timely content
+  ## Workflow:
+    - Step 1: Always start by reviewing `Content_Examples` to learn tone, format, and what worked.
+    - Step 2: Use `Brave_Search_tool` to enrich your writing with current, high-impact phrases.
+    - Step 3: Optionally use `thinking_tool` or `get_current_time` if they help improve clarity or relevance.
+    - Step 4: Write the post using insights from the tools, focusing on clear, professional, and well-structured content.
 
-  ## Constraints:
-  - Do not use slang or casual language
-  - Avoid clickbait or misleading titles
-  - Ensure compliance with Facebook's content policies
+    > Do not skip Step 1 or Step 2. The output will be rejected if either tool is not used.
